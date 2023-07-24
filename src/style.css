@@ -1,0 +1,103 @@
+* {
+    box-sizing: border-box;
+}
+
+body,
+div,
+main,
+header,
+form,
+section {
+    margin: 0;
+    padding: 0;
+}
+
+body,
+input,
+button {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 14px;
+}
+
+.container {
+    margin: 0 auto;
+    padding: 20px;
+    width: 100%;
+    max-width: 1000px;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+}
+
+button {
+    background-color: #fff;
+    padding: 5px 10px;
+    border: 1px solid #000;
+    box-shadow: 2px 2px;
+}
+
+.board {
+    width: 100%
+}
+
+.add-score {
+    width: 100%
+}
+
+.board-head {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.board-details {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    border: 1px solid #000;
+}
+
+.board-details li {
+    padding: 10px;
+}
+
+.board-details li:nth-child(even) {
+    background-color: #eee;
+}
+
+#score-form {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+#score-form input {
+    width: 100%;
+    margin: 5px 0;
+    padding: 5px 10px;
+}
+
+.btn-submit {
+    text-align: right;
+    margin: 5px 0;
+}
+
+@media (min-width: 768px){
+    main {
+        flex-direction: row;
+    }
+
+    .board {
+        padding: 0 5%;
+        width: 500px;
+        max-width: 50%;
+    }
+    
+    .add-score {
+        padding: 0 5%;
+        width: 300px;
+        max-width: 30%;
+    }
+}

@@ -2,7 +2,7 @@
 
 <div align="center">
 
-  <h3><b>Joyce's Portfolio README</b></h3>
+  <h3><b>Leaderboard</b></h3>
 
 </div>
 
@@ -28,9 +28,9 @@
 - [❓ FAQ (OPTIONAL)](#faq)
 - [📝 License](#license)
 
-# 📖 Joyce's Portfolio <a name="about-project"></a>
+# 📖 Leaderboard <a name="about-project"></a>
 
-**Joyce's Portfolio** is a showcase of my software coding portfolio and experience in the field.
+**The Leaderboard App** displays scores submitted by different players. It also allows you to submit your score. All data is preserved thanks to the external Leaderboard API service.
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -39,35 +39,23 @@
 <details>
   <summary>Client</summary>
   <ul>
-    <li><a href="#">To be determined</a></li>
+    <li><a href="#">HTML/CSS</a></li>
+    <li><a href="#">Javascript</a></li>
+    <li><a href="#">Webpack</a></li>
   </ul>
 </details>
 
-<details>
-  <summary>Server</summary>
-  <ul>
-    <li><a href="#">To be determined</a></li>
-  </ul>
-</details>
-
-<details>
-<summary>Database</summary>
-  <ul>
-    <li><a href="#">To be determined</a></li>
-  </ul>
-</details>
 
 ### Key Features <a name="key-features"></a>
 
-- Fully responsive layout
-- Contact form
-- Showcase
+- Fetches and displays top scores from different players
+- Submits new scores
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-- [Live demo](https://balatstar.github.io/)
+- Live demo to follow
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -82,36 +70,44 @@ In order to run this project you need:
 Git
 Code Editor
 Any HTML5-compliant browser
+NPM package manager
 
 ### Setup
 
-Clone this repository to your desired folder: https://github.com/balatstar/portfolio.git
+Clone this repository to your local folder: https://github.com/balatstar/leaderboard.git
 
 
 ### Install
 
 Install this project with:
 
-git clone https://github.com/balatstar/portfolio.git
+git clone https://github.com/balatstar/leaderboard.git
 Open directory with your preferred code editor
+Run: npm install webpack webpack-cli --save-dev
 
 ### Usage
 
 To run the project, execute the following command:
 
-git clone https://github.com/balatstar/portfolio.git
+Option 1 - Live server:
+npm run build
+Open dist/index.html on live server
+
+Option 2 - Local dev server:
+npm install --save-dev webpack-dev-server
+npm start
 
 ### Run tests
 
 To run tests, run the following command:
 
-To follow
+Tests to follow
 
 ### Deployment
 
 You can deploy this project using:
 
-To follow
+Deployment instructions to follow
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -156,9 +152,9 @@ Warm kudos to Microverse for guidance and structure during my learning journey.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-## ❓ FAQ (OPTIONAL) <a name="faq"></a>
+<!--## ❓ FAQ (OPTIONAL) <a name="faq"></a>
 
-<!--
+
 
 - **[Question_1]**
 
