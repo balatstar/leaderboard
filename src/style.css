@@ -39,11 +39,11 @@ button {
 }
 
 .board {
-  width: 100%
+  width: 100%;
 }
 
 .add-score {
-  width: 100%
+  width: 100%;
 }
 
 .board-head {
@@ -84,7 +84,7 @@ button {
   margin: 5px 0;
 }
 
-@media (min-width: 768px){
+@media (min-width: 768px) {
   main {
     flex-direction: row;
   }
@@ -94,7 +94,7 @@ button {
     width: 500px;
     max-width: 50%;
   }
-    
+
   .add-score {
     padding: 0 5%;
     width: 300px;
