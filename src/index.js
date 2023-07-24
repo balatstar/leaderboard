@@ -1,5 +1,4 @@
-import _ from 'lodash';
 import './style.css';
-import { postBoard } from './modules/boardlist';
+import postBoard from './modules/boardlist.js';
 
 postBoard();

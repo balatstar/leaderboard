@@ -19,7 +19,7 @@ const boardList = [
 
 const boardDetails = document.querySelector('.board-details');
 
-export const postBoard = () => {
+export default function postBoard() {
   boardList.forEach((postData) => {
     const postElement = document.createElement('li');
     postElement.innerHTML = `
@@ -27,4 +27,4 @@ export const postBoard = () => {
   `;
     boardDetails.appendChild(postElement);
   });
-};
+}
