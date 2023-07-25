@@ -17,7 +17,8 @@ const fetchLeaderboardData = async (boardDetails) => {
       boardDetails.appendChild(postElement);
     });
   } catch (error) {
-    alert('Error fetching the leaderboard data. Please try again later.');
+    const errorDisplay = document.querySelector('.error-display');
+    errorDisplay.textContent = 'Error fetching the leaderboard. Please try again later.';
   }
 };
 

@@ -1,4 +1,4 @@
-const sendScore = async (name, score, boardDetails) => {
+const sendScore = async (name, score) => {
   try {
     const response = await fetch('https://us-central1-js-capstone-backend.cloudfunctions.net/api/games/yeVvC4Do7HGekmO2b8B4/scores/', {
       method: 'POST',
@@ -13,9 +13,9 @@ const sendScore = async (name, score, boardDetails) => {
     if (!response.ok) {
       throw new Error('Network response was not ok');
     }
-    
   } catch (error) {
-    alert('Error sending the score. Please try again later.');
+    const errorDisplay = document.querySelector('.error-display');
+    errorDisplay.textContent = 'Error adding your score. Please try again later.';
   }
 };
 
