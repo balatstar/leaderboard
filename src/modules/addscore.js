@@ -13,9 +13,9 @@ const sendScore = async (name, score, boardDetails) => {
     if (!response.ok) {
       throw new Error('Network response was not ok');
     }
-    const data = await response.json();
-    fetchLeaderboardData(boardDetails); // Fetch and update the leaderboard after adding a new score
+    
   } catch (error) {
+    alert('Error sending the score. Please try again later.');
   }
 };
 
