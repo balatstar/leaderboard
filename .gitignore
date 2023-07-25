@@ -1,2 +1,4 @@
 node_modules
 .DS_Store
+addscore2.js
+fetchscore.js
