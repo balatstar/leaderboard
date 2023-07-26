@@ -12,11 +12,20 @@ section {
   padding: 0;
 }
 
+body {
+  background: url(pirate-ship.jpg) no-repeat center center/cover;
+}
+
 body,
 input,
 button {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-size: 14px;
+}
+
+h1,
+h2 {
+  color: #fdf9f4;
 }
 
 .container {
@@ -32,10 +41,18 @@ main {
 }
 
 button {
-  background-color: #fff;
+  background-color: #fbe3c3;
   padding: 5px 10px;
-  border: 1px solid #000;
-  box-shadow: 2px 2px;
+  border: 1px solid #27170a;
+  box-shadow: 2px 2px #27170a;
+}
+
+button:hover {
+  background-color: #f8d19f;
+}
+
+button.active {
+  background-color: #d08626;
 }
 
 .board {
@@ -56,7 +73,7 @@ button {
   list-style: none;
   margin: 0;
   padding: 0;
-  border: 1px solid #000;
+  border: 1px solid #27170a;
 }
 
 .board-details li {
@@ -64,7 +81,11 @@ button {
 }
 
 .board-details li:nth-child(even) {
-  background-color: #eee;
+  background-color: #fbe3c3;
+}
+
+.board-details li:nth-child(odd) {
+  background-color: #f8d19f;
 }
 
 #score-form {
@@ -77,6 +98,8 @@ button {
   width: 100%;
   margin: 5px 0;
   padding: 5px 10px;
+  background-color: #fef1e0;
+  border: 1px solid #27170a;
 }
 
 .btn-submit {
