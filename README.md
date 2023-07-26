@@ -97,18 +97,6 @@ Option 2 - Local dev server:
 npm install --save-dev webpack-dev-server
 npm start
 
-### Run tests
-
-To run tests, run the following command:
-
-Tests to follow
-
-### Deployment
-
-You can deploy this project using:
-
-Deployment instructions to follow
-
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## 👥 Authors <a name="authors"></a>
@@ -117,7 +105,7 @@ Deployment instructions to follow
 
 - GitHub: [@balatstar](https://github.com/balatstar)
 - Twitter: [@balatstar](https://twitter.com/balatstar)
-- LinkedIn: [Joyce](https://linkedin.com/in/joyce-ann-cruz-668a41a7
+- LinkedIn: [Joyce](https://linkedin.com/in/joyce-ann-cruz-668a41a7)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
